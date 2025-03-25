@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Norman Khan</title>
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-black font-sans">
+<div class="max-w-4xl mx-auto p-8 bg-white shadow-lg mt-10">
+
+
+<div class="flex justify-between items-center border-b pb-4 mb-6">
+    <div>
+        <p class="text-2xl font-bold text-gray-900">Dr. Norman Khan</p>
+        <p class="text-lg text-gray-600">Astrophysicist | Data Scientist</p>
+    </div>
+    <div class="flex space-x-4">
+        <a href="mailto:norman1000@gmail.com" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email" class="w-6 h-6">
+        </a>
+        <a href="https://github.com/nx1" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" class="w-6 h-6">
+        </a>
+        <a href="https://www.linkedin.com/in/nx1" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" class="w-6 h-6">
+        </a>
+    </div>
+</div>
+
+<section class="mb-8">
+    <h2 class="text-2xl font-semibold border-b pb-2 mb-4">Work Experience</h2>
+
+    <div class="mb-6">
+        <p class="text-lg font-bold">Postdoctoral Researcher | IRAP, Toulouse <span class="text-sm text-gray-500">2024</span></p></p>
+        <p class="text-sm text-gray-600">During a 1 year Postdoctoral position at the Research Institute of Astrophysics and Planetology (IRAP),
+        I lead a research project to develop a Python pipeline and Bayesian algorithm to classify rapid astrophysical transients in 25 years of archival X-ray data from the 
+        <a href="https://en.wikipedia.org/wiki/XMM-Newton", class="text-blue-500">XMM-Newton</a> space observatory.
+        This big data project required the processing of 87 billion individual photon events in approximately 30Tb of archival X-ray data and was successful in discovering
+        discovering 20,000 previously unknown X-ray phenomena. In order to efficiently browse the outputs from the pipeline, I developed a custom <a href="https://flask.palletsprojects.com/en/stable/", class="text-blue-500">Flask</a> application to efficiently browse, visualize, and analyze results.<br>
+        <a href="https://github.com/nx1/EXOD2" class="text-blue-500">See EXOD on GitHub</a><br><a href="https://arxiv.org/pdf/2503.14208", class="text-blue-500">See the publication on arxiv</a></p>
+    </div>
+    <div class="mb-6">
+        <p class="text-lg font-bold">Data Scientist | Shell <span class="text-sm text-gray-500">2021</span></p>
+        <p class="text-sm text-gray-600">Implemented and compared 20+ regression models using <a href="https://scikit-learn.org/" class="text-blue-500">scikit-learn</a> to forecast solar power output over a 24-48 hour window.</p>
+        <p class="text-sm text-gray-600">Evaluated feature extraction, dimensionality reduction, hyperparameter tuning, and model selection.</p>
+        <p class="text-sm text-gray-600">The input features for the machine learning algorithms used were obtained via the use of post-processed outputs from the <a href="https://en.wikipedia.org/wiki/Weather_Research_and_Forecasting_Model",  class="text-blue-500">Weather Research and Forecasting (WRF)</a> numerical weather prediction model.
+        <p class="text-sm text-gray-600">Identified <a href="https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.html" class="text-blue-500">Random Forest Regressor</a> as the best-performing model for solar power forecasting. <br>We unexpectedly found that this model out-performed more complex models such as <a href="https://en.wikipedia.org/wiki/Long_short-term_memory",  class="text-blue-500">LSTMs.</a></p>
+    </div>
+    <div class="mb-6">
+        <p class="text-lg font-bold">Data Scientist | Senseye <span class="text-sm text-gray-500">2019</span></p>
+        <p class="text-sm text-gray-600">Developed a predictive algorithm using <a href="https://facebook.github.io/prophet/" class="text-blue-500">Facebook’s Prophet</a> to estimate the probability of sensor metrics exceeding specified thresholds over time.</p>
+        <p class="text-sm text-gray-600">Designed and implemented an algorithm to detect quasi-flat lines in industrial sensor data.</p>
+        <p class="text-sm text-gray-600">Experience with Agile workflow (<a href="https://www.atlassian.com/software/jira" class="text-blue-500">Jira</a>, <a href="https://www.atlassian.com/software/confluence" class="text-blue-500">Atlassian</a>), object-oriented design, and writing flexible, modular code.</p>
+        <p class="text-sm text-gray-600">Used <a href="https://docs.pytest.org/en/latest/" class="text-blue-500">pytest</a> for unit testing.</p>
+    </div>
+    <div class="mb-6">
+        <p class="text-lg font-bold">Data Control Services Intern | UBS <span class="text-sm text-gray-500">2013</span></p>
+    <p class="text-sm text-gray-600">Created an Excel macro to extract data from a SharePoint list and format it for use in management information reports.</p>
+    <p class="text-sm text-gray-600">Contributed to the development of a web page that became the foundation of an ongoing "Frequently Asked Questions" knowledge management portal.</p>
+    <p class="text-sm text-gray-600">Delivered multiple small projects that improved the daily reporting process, some of which remained in use beyond the internship.</p>
+    <a href="https://nx1.info/science/LoR_UBS.pdf" class="text-blue-500">Letter of Reference</a>
+    </div>
+
+    <div class="mb-6">
+        <p class="text-lg font-bold">Regional Control and Accounting Intern | UBS <span class="text-sm text-gray-500">2011</span></p>
+        <p class="text-sm text-gray-600">Worked to ensure trader accounts adhered to financial compliance regulations.</p>
+    </div>
+</section>
+
+
+
+
+<!-- Publications -->
+<section class="mb-8">
+    <h2 class="text-2xl font-semibold border-b pb-2 mb-4">First Author Publications</h2>
+
+    <div class="mb-4">
+        <p class="font-bold">2025 - The EXOD search for faint transients in XMM-Newton observations
+		<a href="https://arxiv.org/abs/2503.14208" class="text-blue-600 hover:underline" target="_blank">[ArXiv]</a>
+        <a href="https://ui.adsabs.harvard.edu/abs/2025arXiv250314208K/abstract" class="text-blue-600 hover:underline" target="_blank">[NASA ADS]</a></p>
+        <p class="text-sm text-gray-600">
+The XMM-Newton observatory has amassed over 17,000 X-ray observations over 25 years, but standard pipelines often miss short-lived or faint transients. Detecting these sources is crucial for understanding X-ray variability and informing future missions like Athena. We reprocessed 12,926 XMM-Newton archival observations using a novel approach that converts event lists into data cubes, enabling transient searches in short time windows while accounting for sparse Poisson statistics and high-background periods. Our method identified 32,247 variable sources (3σ) and 4,083 (5σ), including a candidate quasi-periodic eruption, a new magnetar, a Galactic hard X-ray burst, and a possible X-ray counterpart to a radio pulsar. This efficient technique enhances transient detection and is adaptable for future telescopes and other photon-counting instruments.
+        </p>
+    </div>
+
+    <div class="mb-4">
+        <p class="font-bold">2023 - Long-Term X-Ray/UV Variability in ULXs			
+		<a href="https://arxiv.org/abs/2308.07692" class="text-blue-600 hover:underline" target="_blank">[ArXiv]</a>
+            <a href="https://ui.adsabs.harvard.edu/abs/2023MNRAS.524.4302K/abstract" class="text-blue-600 hover:underline" target="_blank">[NASA ADS]</a></p>
+        <p class="text-sm text-gray-600">
+NASA’s Swift telescope has observed ultraluminous X-ray sources (ULXs) for nearly 20 years, often capturing simultaneous X-ray and UV/optical data. Using ~40 ULXs with repeat observations, we analyze stacked images to assess the spatial extent of UV/optical emission and extract long-term light curves to explore X-ray–UV correlations. While some sources exhibit weak linear correlations, others show non-linear relationships, suggesting complex underlying mechanisms. We discuss these findings in the context of precession, accretion disc irradiation, and companion star irradiation.
+        </p>
+    </div>
+
+    <div class="mb-4">
+        <p class="font-bold">2022 - The impact of precession on the observed population of ULXs
+		<a href="https://arxiv.org/abs/2110.11318" class="text-blue-600 hover:underline" target="_blank">[ArXiv]</a>
+        <a href="https://ui.adsabs.harvard.edu/abs/2022MNRAS.509.2493K/abstract" class="text-blue-600 hover:underline" target="_blank">[NASA ADS]</a></p>
+        <p class="text-sm text-gray-600">
+The discovery of neutron stars in ultraluminous X-ray sources (ULXs) raises key questions about their population demographics. We extend previous simulations by modeling emission from a precessing, geometrically beamed wind-cone driven by supercritical accretion. Our approach estimates the fraction of ULXs that are visible—either persistently or transiently—based on factors such as black hole and neutron star abundance, precession angles, and X-ray binary duty cycles. We compare our predictions to an XMM-Newton ULX catalog and assess how eROSITA’s all-sky survey can further constrain the underlying population.
+        </p>
+    </div>
+</section>
+
+<!-- Education Section -->
+<section class="mb-8">
+    <h2 class="text-2xl font-semibold border-b pb-2 mb-4">Education</h2>
+    
+    <div class="mb-6">
+        <p class="text-lg font-bold">PhD in Astrophysics <span class="text-sm text-gray-500">2018-2023</span></p>
+        <p class="text-sm text-gray-600">DISCnet Scholarship | University of Southampton, UK</p>
+        <p class="text-sm text-gray-600">As a <a href="https://www.discnet.co.uk/about", class="text-blue-500">DISCnet</a> 
+        student, I was part of an <a href="https://en.wikipedia.org/wiki/Science_and_Technology_Facilities_Council", class="text-blue-500">STFC</a> Centre for Doctoral Training, which
+        trains the next generation of data scientists with a focus on big data
+        handling, data analytics, and machine learning techniques. Through
+        DISCnet, I received specialized training in data-intensive science,
+        building skills to address some of the most challenging questions in
+        physics. The programme emphasized hands-on experience with six months
+        of industustry placement in data science projects.</p>
+        <p class="text-sm text-gray-600">I additionally taught undergraduate programming labs for several semesters, specializing in computational methods for physicists.</p>
+        <a href="https://nx1.info/science/thesis.pdf", class="text-blue-500">[PhD Thesis]</a>  <a href="https://nx1.info/science/phd_diploma.pdf", class="text-blue-500">[Disploma]</a> <a href="https://nx1.info/science/LoR_phd.pdf", class="text-blue-500">[Letter of Recommendation]</a>
+    </div>
+
+    <div class="mb-6">
+        <p class="text-lg font-bold">MPhys in Physics & Astronomy <span class="text-sm text-gray-500">2014-2018</span></p>
+        <p class="text-sm text-gray-600">University of Southampton, UK</p> <b>First-Class Honours</b><br>
+        <a href="https://nx1.info/science/Mphys_degree.pdf", class="text-blue-500">[Academic Transcript]</a>
+    </div>
+</section>
+<section>
+    <h2 class="text-2xl font-semibold border-b pb-2 mb-4">Interests</h2>
+    <p class="text-gray-700">
+    In my spare time I enjoy making music, drawing, reading, skiing, football,
+    cycling, lifting, making cider with my grandad, helping my mum look after
+    many dogs, messing with rasberry pis, learning about digital signal
+    processing, tracking down rare music, and lots of other nerdy stuff...
+    <br>
+    I run a personal website at <a href="http://nx1.info", class="text-blue-500">nx1.info</a></p>
+</section>
+</div>
+</div>
+</div>
+</body>
+</html>
+
